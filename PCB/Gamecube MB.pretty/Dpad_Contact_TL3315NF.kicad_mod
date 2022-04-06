@@ -1,4 +1,4 @@
-(footprint "DPad_Contact" (version 20211014) (generator pcbnew)
+(footprint "Dpad_Contact_TL3315NF" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
