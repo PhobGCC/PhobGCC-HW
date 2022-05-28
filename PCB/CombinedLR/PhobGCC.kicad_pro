@@ -55,7 +55,18 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|107000000|58200000|bbeb5660-87a7-4a13-be2a-0981978dab67|edfc2908-bbe7-4d31-aa93-c89010a82905",
+        "clearance|108000000|58200000|bf846e30-5aad-4cd9-8d75-caabbac7227c|edfc2908-bbe7-4d31-aa93-c89010a82905",
+        "items_not_allowed|135894552|82880220|1645b1cd-d39a-4ea2-8de2-2f6a75f71b1c|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|141471054|89295251|f853484f-fea8-474e-a094-d8573af55eda|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|146018672|66202159|e56d266a-2785-4eaa-96fb-00220a0e095a|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|153592227|62343240|7314c2d2-48e2-4f34-b685-3af47ead6d03|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|153850000|74150000|299feb58-1eef-44ea-954d-77fdbcbbac36|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|153850000|82650000|b20a8d9a-b416-4917-86bb-0f01273fb254|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|167276771|70841780|53923e5f-1b72-4ac4-86fd-e7e2e062e866|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|169044020|79156035|e612d363-da89-4e8b-a043-1531648d6460|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -86,8 +97,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
