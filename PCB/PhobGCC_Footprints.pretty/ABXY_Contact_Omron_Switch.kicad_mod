@@ -1,22 +1,23 @@
 (footprint "ABXY_Contact_Omron_Switch" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 62428DFD)
+  (property "Sheetfile" "PhobGCC.kicad_sch")
+  (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "Ref**" (at -3.15 -6.5) (layer "F.SilkS") hide
+  (fp_text reference "SW4" (at -3.15 -6.5) (layer "F.SilkS") hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
-    (tstamp 514ae2b1-96b3-4a21-b8c7-764f8d6a410f)
+    (tstamp fbefcbea-f479-478b-98a5-b881050f1157)
   )
-  (fp_text value "Val**" (at 3.4 -6.55) (layer "F.SilkS")
+  (fp_text value "Y" (at 3.602419 5.595317 63) (layer "F.SilkS")
     (effects (font (size 1.27 1.27) (thickness 0.15)))
-    (tstamp ca9af257-407b-4fa6-90c5-8313bc030faa)
+    (tstamp d439038f-b9c5-4d68-b94c-a8e6d4b217c3)
   )
-  (fp_rect (start -0.8 5.54) (end 1.8 8.14) (layer "F.Mask") (width 0) (fill solid) (tstamp af06ce4b-2df5-4288-9410-daa02c29db28))
-  (fp_rect (start -0.8 -5.86) (end 1.8 -3.26) (layer "F.Mask") (width 0) (fill solid) (tstamp b59d78d7-e90a-4bfd-aace-2e1a67ae3f8a))
-  (fp_circle (center 0 0) (end 3.5 0) (layer "F.Mask") (width 0.12) (fill solid) (tstamp 06c9fff9-d234-4acc-8340-4f6ddcba6a9a))
+  (fp_rect (start -0.8 -5.86) (end 1.8 -3.26) (layer "F.Mask") (width 0) (fill solid) (tstamp 4a2e0d05-427b-4e12-a16b-72e3860f8dcb))
+  (fp_rect (start -0.8 5.54) (end 1.8 8.14) (layer "F.Mask") (width 0) (fill solid) (tstamp f8969738-ede8-464f-a583-62ffc129aa00))
+  (fp_circle (center 0 0) (end 3.5 0) (layer "F.Mask") (width 0.12) (fill solid) (tstamp 18c412a5-2087-4e4e-bb24-5ad64e646d2e))
   (pad "1" smd custom (at 0 -4.2) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
     (options (clearance outline) (anchor circle))
     (primitives
-      (gr_rect (start -0.8 -1.66) (end 1.8 0.94) (width 0) (fill yes))
       (gr_poly (pts
           (xy 0.251678 -0.690834)
           (xy 0.405945 -0.621971)
@@ -246,12 +247,11 @@
           (xy 0.083531 -0.7216)
           (xy 0.251678 -0.690834)
         ) (width 0.01) (fill yes))
-    ) (tstamp bb081485-e2b1-4818-82d4-d89be29e0cf2))
+          (gr_rect (start -0.8 -1.66) (end 1.8 0.94) (width 0) (fill yes))
+    ) (tstamp 5bef9f6a-c8b6-49f9-b32e-96f46f8f4f6c))
   (pad "2" smd custom (at 0 4.3) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
     (options (clearance outline) (anchor circle))
     (primitives
-      (gr_line (start 0 0) (end 0 2) (width 0.4))
-      (gr_rect (start -0.8 1.24) (end 1.8 3.84) (width 0) (fill yes))
       (gr_poly (pts
           (xy 4.220623 -6.124804)
           (xy 4.301577 -6.099095)
@@ -486,11 +486,14 @@
           (xy 4.128232 -6.133361)
           (xy 4.220623 -6.124804)
         ) (width 0.01) (fill yes))
-    ) (tstamp a52727ba-c795-46c8-abd8-04003e3b5d32))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp ba1ab63a-1f11-4362-bd53-f4f0a9186f89) (hatch edge 0.508)
+          (gr_line (start 0 0) (end 0 2) (width 0.4))
+          (gr_rect (start -0.8 1.24) (end 1.8 3.84) (width 0) (fill yes))
+    ) (tstamp 158980dc-68fa-4f6b-a3d2-a37d543ac5c8))
+  (pad "2" thru_hole circle (at 0 4.3) (size 0.8 0.8) (drill 0.4) (layers *.Cu *.Mask) (tstamp 188dbd69-31d7-410d-823e-7172ad1367cc))
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 5d6b7a08-5e50-4637-9ba9-980ddd392fb4) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -505,14 +508,14 @@
       )
     )
   )
-  (group "" (id 343bcd0e-9757-4fc2-bd69-fad5aa2c85f4)
+  (group "" (id 6354db0b-94cb-405d-801d-6fa86690b83f)
     (members
-      bb081485-e2b1-4818-82d4-d89be29e0cf2
+      158980dc-68fa-4f6b-a3d2-a37d543ac5c8
     )
   )
-  (group "" (id b1f28974-c9e8-42e7-b670-1d34b4edf577)
+  (group "" (id a243f072-51e0-4693-b78e-c41e2fc0fa77)
     (members
-      a52727ba-c795-46c8-abd8-04003e3b5d32
+      5bef9f6a-c8b6-49f9-b32e-96f46f8f4f6c
     )
   )
 )
