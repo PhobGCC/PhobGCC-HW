@@ -247,6 +247,7 @@
           (xy 0.251678 -0.690834)
         ) (width 0.01) (fill yes))
     ) (tstamp bb081485-e2b1-4818-82d4-d89be29e0cf2))
+  (pad "2" thru_hole circle (at 0 4.3) (size 0.8 0.8) (drill 0.4) (layers *.Cu *.Mask) (tstamp 4cf38244-ecb2-4fc3-97be-bc1ff20f63ef))
   (pad "2" smd custom (at 0 4.3) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
     (options (clearance outline) (anchor circle))
     (primitives
@@ -490,7 +491,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp ba1ab63a-1f11-4362-bd53-f4f0a9186f89) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts

@@ -2,11 +2,11 @@
   (layer "F.Cu")
   (tedit 6213C300)
   (attr through_hole)
-  (fp_text reference "SW8" (at 0.026443 4.5458) (layer "F.SilkS")
+  (fp_text reference "SW8" (at 0.026443 4.5458) (layer "F.SilkS") hide
     (effects (font (size 0.640862 0.640862) (thickness 0.15)))
     (tstamp c8ce7d0f-bd8a-416c-9bb9-339f4090a830)
   )
-  (fp_text value "1825027-5" (at 0.377146 4.847982) (layer "F.Fab")
+  (fp_text value "1825027-5" (at 0.377146 4.847982) (layer "F.SilkS")
     (effects (font (size 0.64058 0.64058) (thickness 0.15)))
     (tstamp 3a41f6b2-d64e-4fc9-9c78-62461e28f42c)
   )

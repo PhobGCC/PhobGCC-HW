@@ -4,7 +4,7 @@
   (descr "Mounting Hole 2.5mm, no annular")
   (tags "mounting hole 2.5mm no annular")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -3.5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -3.5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4bc286e0-6a16-4d35-a592-670f1762f921)
   )
