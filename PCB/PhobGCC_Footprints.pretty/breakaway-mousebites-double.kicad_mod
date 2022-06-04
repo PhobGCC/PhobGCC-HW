@@ -4,7 +4,7 @@
   (property "Sheetfile" "PhobGCC.kicad_sch")
   (property "Sheetname" "")
   (attr exclude_from_pos_files)
-  (fp_text reference "H20" (at -2.89 -1.36 270) (layer "Dwgs.User")
+  (fp_text reference "H20" (at -2.89 -1.36 270) (layer "Dwgs.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 32e21c93-a243-4a73-9e6f-e3d37edce034)
   )
