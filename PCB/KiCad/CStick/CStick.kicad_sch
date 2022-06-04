@@ -426,7 +426,7 @@
     (uuid 61d7b681-5321-4eb3-aa94-2064a3bbd361)
     (property "Reference" "J1" (id 0) (at 44.577 32.2793 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 44.577 35.0544 0))
-    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" (id 2) (at 43.942 38.862 0)
+    (property "Footprint" "" (id 2) (at 43.942 38.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 43.942 38.862 0)
@@ -578,7 +578,7 @@
       (reference "H6") (unit 1) (value "MouseBite") (footprint "PhobGCC_Footprints:breakaway-mousebites-double")
     )
     (path "/61d7b681-5321-4eb3-aa94-2064a3bbd361"
-      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "PhobGCC_Footprints:PinHeader_1x04_P2.00mm_Vertical")
     )
     (path "/8ae1c09a-53cf-4ff3-980c-45e96b7744a8"
       (reference "U1") (unit 1) (value "Stickbox_Assembly") (footprint "PhobGCC_Footprints:GCC_Stickbox_Hall_Only")
