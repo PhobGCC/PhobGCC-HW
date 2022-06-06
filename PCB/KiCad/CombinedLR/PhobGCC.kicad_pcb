@@ -37,7 +37,7 @@
       (layerselection 0x00010f0_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
-      (usegerberattributes true)
+      (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
       (svguseinch false)
@@ -64,7 +64,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../../../PhobGCCProductionFiles/")
+      (outputdirectory "../../../../PhobGCC-Production_Files/")
     )
   )
 
