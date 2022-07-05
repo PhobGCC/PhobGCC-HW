@@ -3662,7 +3662,7 @@
     (uuid 00000000-0000-0000-0000-00006159dc5a)
     (property "Reference" "SW8" (id 0) (at 148.59 88.9 0))
     (property "Value" "Z" (id 1) (at 148.59 91.44 0))
-    (property "Footprint" "PhobGCC_Footprints:Z_Switch_Edge" (id 2) (at 148.59 95.25 0)
+    (property "Footprint" "" (id 2) (at 148.59 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 148.59 95.25 0)
@@ -5636,7 +5636,7 @@
       (reference "SW7") (unit 1) (value "R") (footprint "PhobGCC_Footprints:Pin_Header_Straight_1x02_Pitch2.54mm")
     )
     (path "/00000000-0000-0000-0000-00006159dc5a"
-      (reference "SW8") (unit 1) (value "Z") (footprint "PhobGCC_Footprints:Z_Switch_Edge")
+      (reference "SW8") (unit 1) (value "Z") (footprint "PhobGCC_Footprints:Z_Switch_Edge_Omron")
     )
     (path "/00000000-0000-0000-0000-00006157aadd"
       (reference "SW9") (unit 1) (value "Dleft") (footprint "PhobGCC_Footprints:Dpad_Contact_TL3315NF_2")

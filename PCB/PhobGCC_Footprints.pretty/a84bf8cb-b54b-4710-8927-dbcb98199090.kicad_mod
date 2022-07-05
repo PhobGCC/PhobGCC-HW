@@ -1,0 +1,30 @@
+(footprint "a84bf8cb-b54b-4710-8927-dbcb98199090" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "" (at -0.731 0.259643) (layer "F.SilkS")
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 1e9e0851-67e7-439f-bfb1-04e9a0ea0cc0)
+  )
+  (fp_text value "" (at -0.731 0.259643) (layer "F.SilkS")
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 11f0378a-1f59-452b-b01d-87ac1c305d25)
+  )
+  (fp_line (start -0.181 -0.018357) (end -3.821 -0.018357) (layer "Dwgs.User") (width 0.1) (tstamp 7a9f00f1-46ce-4526-b3ab-45e047d94c61))
+  (fp_line (start -3.846 3.4906) (end -0.156 3.4906) (layer "Dwgs.User") (width 0.1) (tstamp 9c7a2851-50e6-4c4e-ba99-e97a9a5ea697))
+  (fp_line (start -4.004 -0.0174) (end -4.001 3.4902) (layer "Edge.Cuts") (width 0.1) (tstamp 80bf45cd-9329-48fa-b73b-b9d3df316ec5))
+  (fp_line (start 0 0) (end 0.003 3.5076) (layer "Edge.Cuts") (width 0.1) (tstamp b4a536c3-cfb2-4f76-ad0d-312c7e963b22))
+  (pad "" np_thru_hole circle (at -1.986 3.2606) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask) (tstamp 64cc56ce-795b-4f78-a859-4b1e0215f451))
+  (pad "" np_thru_hole circle (at -3.271 0.259643 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask) (tstamp 791ad295-3c5b-4c55-954c-a3e6b0949da2))
+  (pad "" np_thru_hole circle (at -0.731 0.259643 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask) (tstamp adf8573f-06af-46c4-8ea6-7fcde827c48d))
+  (pad "" np_thru_hole circle (at -3.256 3.2606) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask) (tstamp b483018e-11d3-45df-aa36-8e6200afada7))
+  (pad "" np_thru_hole circle (at -0.716 3.2606) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask) (tstamp ce61890f-cd39-4bbc-9de7-8ee84cd9ffbe))
+  (pad "" np_thru_hole circle (at -2.001 0.259643 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask) (tstamp ebff72dd-db76-462a-ad9d-344999b6679b))
+  (group "" (id 62e29c12-836a-4ba1-9791-0166510059e8)
+    (members
+      64cc56ce-795b-4f78-a859-4b1e0215f451
+      9c7a2851-50e6-4c4e-ba99-e97a9a5ea697
+      b483018e-11d3-45df-aa36-8e6200afada7
+      ce61890f-cd39-4bbc-9de7-8ee84cd9ffbe
+    )
+  )
+)
